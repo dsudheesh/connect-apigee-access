@@ -9,7 +9,7 @@ Provides a session store functionality using Apigee cache. This is mainly useful
 npm install connect-apigee-access
 
 ## Usage
-
+```
 var session = require('express-session');
 var ApigeeStore = require('connect-apigee-access')(session);
 
@@ -24,3 +24,4 @@ app.use(session({
    resave: false,
    saveUninitialized: false
 }));
+```
