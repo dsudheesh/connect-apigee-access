@@ -19,7 +19,7 @@ var options = {
 app.use(session({
    store: new ApigeeStore(options),
    secret: 'keyboard cat',
-   resave: false,
-   saveUninitialized: false
+   resave: false, // use the value that best suits your application needs.  
+   saveUninitialized: false // user the value that best suits your application needs.
 }));
 ```
