@@ -1,5 +1,3 @@
-# connect-apigee-access
-
 Connect Apigee Access
 ============================
 Provides a session store functionality using Apigee cache. This is mainly useful for express apps using express-session module and running on Apigee cloud.
