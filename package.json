@@ -1,6 +1,6 @@
 {
-  "name": "connect-apigee-access",
-  "version": "1.1.0",
+  "name": "express-session-apigee-cache",
+  "version": "1.0.0",
   "description": "Provides a session store functionality using Apigee cache. This is mainly useful for express apps using express-session module and running on Apigee cloud.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsudheesh/connect-apigee-access.git"
+    "url": "git+https://github.com/dsudheesh/express-session-apigee-cache.git"
   },
   "dependencies": {
     "debug": "^2.2.0",
@@ -16,16 +16,15 @@
   },
   "keywords": [
     "Apigee",
-    "Apigee",
-    "Cache",
+    "Apigee Cache",
     "Express",
     "Express-session",
-    "session"
+    "Session"
   ],
   "author": "Sudheesh Damodaran <dsudheesh@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dsudheesh/connect-apigee-access/issues"
   },
-  "homepage": "https://github.com/dsudheesh/connect-apigee-access#readme"
+  "homepage": "https://github.com/dsudheesh/express-session-apigee-cache#readme"
 }

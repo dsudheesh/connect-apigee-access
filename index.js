@@ -1,4 +1,4 @@
-var debug = require('debug')('connect-apigee-access');
+var debug = require('debug')('express-session-apigee-cache');
 var apigee = require('apigee-access');
 var util = require('util');
 var noop = function(){};
